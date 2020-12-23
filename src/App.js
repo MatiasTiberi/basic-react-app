@@ -5,7 +5,7 @@ import axios from 'axios'
 import Inicio from './Inicio'
 import Familia from './Familia'
 
-axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.baseURL = 'http://190.191.72.25';
 axios.defaults.withCredentials = true;
 
 function App() {
